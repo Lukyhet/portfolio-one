@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Pathway+Gothic+One&display=swap');
 
 * {
     margin: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: Mulish, sans-serif;
+    font-family: Open Sans, sans-serif;
     font-weight: 300;
     color:#3a3a3a;
 }
@@ -15,7 +15,7 @@ body {
 /* headings and logo */
 
 h1, h2 {
-    font-family: Poppins, sans-serif;
+    font-family: Pathway Gothic One, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #3a2c30;
@@ -27,7 +27,33 @@ h1, h2 {
     margin-left: 30px;
 }
 
-#logo {
-    float: left;
-    font-size: 280%
+#menu, #logo {
+    line-height: 75px;
 }
+
+/* navigation links */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a2c30;
+}
+
+.active {
+        border-bottom: 1px solid #3a2c30;
+}
+

@@ -26,6 +26,7 @@ h1, h2 {
     float: left;
     font-size: 280%;
     margin-left: 30px;
+    cursor: pointer;
 }
 
 #menu, #logo {
@@ -51,11 +52,11 @@ h1, h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #3a2c30;
+    border-bottom: 2px solid #9271a7;
 }
 
 .active {
-        border-bottom: 1px solid #3a2c30;
+        border-bottom: 2px solid #9271a7;
 }
 
 /* hero-image and cover text*/

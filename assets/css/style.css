@@ -74,12 +74,12 @@ h1, h2 {
 }
 
 #hero-image {
-    height: 600px;;
+    height: 600px;
     width: 100%;
     background: url('../images/mother-daughter3.jpeg');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: 100% auto; 
 }
 
 #cover-text {
@@ -99,7 +99,7 @@ h1, h2 {
     bottom: 30px;
     right: 150px;
 
-    position: absolute;
+    position: relative;
 }
 
 /* Media queries for larger to medium screens from 1200px and down */
@@ -124,9 +124,12 @@ h1, h2 {
     }
 }
 
-    @media only screen and (max-width: 480px) {
-        img {
-        width: 100%;
+    @media screen and (max-width: 480px) {
+    #hero-image {
+        width: 100% auto;
+        height: auto;
+        padding-top: 43%;
+        background-size: 100% auto;
         }
         }
 

@@ -1,128 +1,202 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Pathway+Gothic+One&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    border: none;
-}
 
 body {
+    margin: 0;
     font-family: Open Sans, sans-serif;
-    font-weight: 300;
-    color:#3a3a3a;
 }
 
-/* headings and logo */
-
-
-h1, h2 {
+h1 {
     font-family: Pathway Gothic One, sans-serif;
-    text-transform: uppercase;
+    background-color: #fff;
+    text-align: center;
+    color: #4a536b;
     letter-spacing: 4px;
-    color: #3a2c30;
+    font-weight: bold;
+    font-size: 34px;
 }
 
-#logo {
-    float: left;
-    font-size: 280%;
-    margin-left: 30px;
-    cursor: pointer;
-}
+/* Code grounded on a Stackoverflow website answer to a question by user4639281 https://stackoverflow.com/questions/30418787/how-do-i-center-a-responsive-navigation-bar-menu-with-css-and-html-only" */
 
-#menu, #logo {
-    line-height: 75px;
-}
 
-/* navigation links */
+#menuBackground {
 
-#menu {
-    font-size: 110%;
-    letter-spacing: 4px;
-}
-
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
-}
-
-#menu a {
-    text-decoration: none;
-    color: inherit;
-}
-
-#menu a:hover {
-    border-bottom: 2px solid #9271a7;
-}
-
-.active {
-        border-bottom: 2px solid #9271a7;
-}
-
-/* hero-image and cover text*/
-
-#hero-outer {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
-
-#cover-text, #cover-text h2 {
-    color: #fff;
+    background:#4a536b;
+    width:100%;
+    height:50px;
     text-align: center;
 }
 
+#menuContainer {
+    text-align: center;
+}
+/*Strip the ul of padding and list styling*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*Create a horizontal list with spacing*/
+
+li {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 1px;
+}
+
+/*Style for menu links*/
+
+li a {
+    display: block;
+    min-width: 140px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-family: Pathway Gothic One, sans-serif;
+    letter-spacing: 4px;
+    font-weight: 300;
+    color: #ff9a8d;
+    background: #4a536b;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+/*Hover state for top level links*/
+li:hover a {
+    background: #aed6dc;
+
+}
+
+/*Style for dropdown links*/
+#menu li:hover a ul a:hover {
+    background: #77c593; 
+    color: #aed6dc;
+    height: 40px;
+    line-height: 40px;
+    
+}
+
+  
+
+/*Hover state for dropdown links*/
+
+li:hover ul a:hover {
+    background: #4a536b;
+    color: #aed6dc;  
+}
+
+/*Hide dropdown links until they are needed*/
+li ul {
+    position: absolute;
+    display: none;
+}
+
+/*Make dropdown links vertical*/
+li ul li {
+    display: block;
+}
+
+/*Prevent text wrapping*/
+li ul li a {
+    width: auto;
+    min-width: 100px;
+    padding: 0 20px
+}
+
+/*Display the dropdown on hover*/
+ul li a:hover+.hidden,
+.hidden:hover {
+    display: block
+}
+
+/*Style 'show menu' label button and hide it by default*/
+.show-menu {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    color: #ff9a8d;
+    background: #4a536b;
+    text-align: center;
+    padding: 16px 0;
+    display: none;
+    width: 100%;
+}
+
+/*Hide checkbox*/
+input[type=checkbox] {
+    display: none
+}
+
+/*Show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked~#menu {
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+/*Responsive Styles*/
+@media screen and (max-width : 760px) {
+
+    /*Make dropdown links appear inline*/
+    ul {
+        position: static;
+        display: none;
+        white-space: initial;
+    }
+
+    /*Create vertical spacing*/
+    li {
+        border: 1px solid #ff9a8d;
+       
+    }
+
+    /*Make all menu links full width*/
+    ul li,
+    li a {
+        width: 100%;
+    }
+
+    /*Display 'show menu' link*/
+    .show-menu {
+        display: block;
+        
+    }
+}
+
+/* hero-image and cover-text */
+
 #hero-image {
+
     height: 600px;
     width: 100%;
     background: url('../images/mother-daughter3.jpeg');
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: 100% auto; 
+    overflow: hidden;   
 }
 
-#cover-text {
-    font-size: 130%;
-    font-family: Pathway Gothic, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
 
-    width: 300px;
-    height: 140px;
+/* responsive google-maps widget following instructions by https://muffingroup.com/blog/responsive-google-maps/ */
 
-    padding-top: 40px;
-    padding-left: 10px;
+.google-maps {
 
-    background-color: rgba(169, 109, 173, .5);
-
-    bottom: 30px;
-    right: 150px;
-
-    position: relative;
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
 }
 
-/* Media queries for larger to medium screens from 1200px and down */
-
-@media screen and (max-width: 1200px) {
-
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
 }
 
-/* For medium screen sizes from 950px wide and down */
-@media screen and (max-width: 950px) {
-
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
-
-    #cover-text {
-        left: 0;
-    }
-}
 
     @media screen and (max-width: 480px) {
     #hero-image {
@@ -131,5 +205,6 @@ h1, h2 {
         padding-top: 43%;
         background-size: 100% auto;
         }
-        }
+    }
+    
 

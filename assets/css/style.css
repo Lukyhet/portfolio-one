@@ -144,6 +144,26 @@ input[type=checkbox]:checked~#menu {
 }
 
 
+/* Style circle and image in the About Us section */
+
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #aed6dc;
+    border-width: .5px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-cover-bg {
+    background: url("../images/manyogapeq.png") no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+    
+}
+
 
 /*Responsive Styles*/
 @media screen and (max-width : 760px) {

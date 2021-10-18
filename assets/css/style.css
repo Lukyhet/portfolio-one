@@ -13,7 +13,16 @@ h1 {
     color: #4a536b;
     letter-spacing: 4px;
     font-weight: bold;
-    font-size: 34px;
+    font-size: 45px;
+}
+
+h2 {
+    color: #4a536b;
+    font-family: Pathway Gothic One, sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    letter-spacing: 4px;
+    text-align: center;
 }
 
 /* Code grounded on a Stackoverflow website answer to a question by user4639281 https://stackoverflow.com/questions/30418787/how-do-i-center-a-responsive-navigation-bar-menu-with-css-and-html-only" */
@@ -206,5 +215,5 @@ input[type=checkbox]:checked~#menu {
         background-size: 100% auto;
         }
     }
-    
+
 

@@ -10,14 +10,14 @@ h1 {
     font-family: Pathway Gothic One, sans-serif;
     background-color: #fff;
     text-align: center;
-    color: #4a536b;
+    color: #486f85;
     letter-spacing: 4px;
     font-weight: bold;
     font-size: 45px;
 }
 
 h2 {
-    color: #4a536b;
+    color: #486f85;
     font-family: Pathway Gothic One, sans-serif;
     font-weight: bold;
     font-size: 35px;
@@ -30,7 +30,7 @@ h2 {
 
 #menuBackground {
 
-    background:#4a536b;
+    background:#486f85;
     width:100%;
     height:50px;
     text-align: center;
@@ -66,24 +66,24 @@ li a {
     font-family: Pathway Gothic One, sans-serif;
     letter-spacing: 4px;
     font-weight: 300;
-    color: #ff9a8d;
-    background: #4a536b;
+    color: #d7e6ec;
+    background: #486f85;
     text-decoration: none;
     font-size: 1rem;
 }
 
 /*Hover state for top level links*/
 li:hover a {
-    background: #aed6dc;
+    background: #be5856;
 
 }
 
 /*Style for dropdown links*/
-#menu li:hover a ul a:hover {
-    background: #77c593; 
+#menu li:hover  ul a:hover {
     color: #aed6dc;
     height: 40px;
     line-height: 40px;
+    background: #be5856;
     
 }
 
@@ -92,7 +92,7 @@ li:hover a {
 /*Hover state for dropdown links*/
 
 li:hover ul a:hover {
-    background: #4a536b;
+    background: #486f85;
     color: #aed6dc;  
 }
 
@@ -124,8 +124,8 @@ ul li a:hover+.hidden,
 .show-menu {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-decoration: none;
-    color: #ff9a8d;
-    background: #4a536b;
+    color: #aed6dc;
+    background: #486f85;
     text-align: center;
     padding: 16px 0;
     display: none;
@@ -151,7 +151,7 @@ input[type=checkbox]:checked~#menu {
     height: 300px;
     padding: 30px;
     border-style: solid;
-    border-color: #aed6dc;
+    border-color: #d7e6ec;
     border-width: .5px;
     border-radius: 50%;
     margin: 0 auto;

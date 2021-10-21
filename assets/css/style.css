@@ -37,7 +37,6 @@ h2 {
 }
 
 /* Fix a bug of see-trhough spaces in the dropdown menu and overlaping of first h2, idea from the Developer Kristoffer Von Heland */
-
 #menuContainer {
     text-align: center;
     position: relative;
@@ -155,8 +154,8 @@ input[type=checkbox]:checked~#menu {
 /* Style circle and image in the About Us section */
 
 #circle-container {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     padding: 30px;
     border-style: solid;
     border-color: #d7e6ec;
@@ -180,6 +179,56 @@ p {
     display: block;
     text-align: center;
 }
+
+/* What we Offer section */
+
+#what-we-offer{
+    display: flex;
+    margin-top: 30px;
+}
+
+/*Sign up section*/
+
+/* form */
+
+form {
+    /* Centrar el formulario en la página */
+    margin: 0 auto;
+    max-width: 300px;
+
+    /* Form basic style */
+    padding: 1em;
+    border: 1px solid #f16c6b;
+    border-radius: 1em;
+  }
+
+
+.signup-form {
+    display:flex;
+    background-color: rgb(174, 214, 220, 0.2);
+    border: 1px solid #ff9a8d;
+}
+
+
+.text-input:hover {
+    border-color: #f16c6b;
+    background-color: rgba (174,214,220,0.2);
+}
+
+.join-button {
+    float: center;
+    border-radius: 5px;
+    padding: 10px 28px 10px 28px;
+    font-size: 100%;
+    background-color: #f16c6b;
+    color: #fafafa;
+}
+
+.join-button:hover {
+    background-color: #fafafa;
+    color: #f16c6b;
+}
+
 
 /* footer */
 
@@ -318,4 +367,9 @@ footer {
         height: auto;
         background-size: 100% auto;
     }
+
+    #about-us {
+        width: 65%;
+        height: 1000;
+        margin: 0 auto;
 }

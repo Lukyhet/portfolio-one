@@ -62,13 +62,20 @@ These features are:
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+I have thested the responsivness of the website using three methods, the first one being developer tools of google chrome, the second is websites like Am I responsive [Am I responsive] (http://ami.responsivedesign.is/) the third one using my own mobile phone.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+The website has a clean appearance in the different screen sizes mentioned, looking more spacious in ipad and mobile phone sizes due to the media queries height used to fix gaps between the sections.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+The most challenging bug to fix were the one in the dropdown menu that consisted in tiny see-through gaps between the elements of the list that seemed disharmonious, to fix these gaps I tried many strategies, being finally fixed with the help of an experienced developer who found the problem interesting and was willing to mentor me to fix the bug, I credit him in the comments.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+The second bug that I found very challenging was to get rid of the massive space below the hero image, and then below the about us section, apparently caused by the small png. Image of the man doing yoga and later by the height of the about us section. 
+
+In the process of fixing these bugs I did a lot of research finding many options and learning in the process how delicate is the CSS cascade system.
+
+
+
+
+
 
 
 ### Validator Testing 

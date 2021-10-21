@@ -146,9 +146,7 @@ input[type=checkbox]:checked~#menu {
     margin: 0 auto;
 }
 
-p {
-    padding: 16px;
-}
+
 
 /* Style circle and image in the About Us section */
 
@@ -169,6 +167,39 @@ p {
     border-radius: 50%;
     
 }
+
+/* footer */
+
+/* style social media icons */
+
+.pseudolink { 
+    color #4a536b; 
+    text-decoration:underline; 
+    cursor:pointer; 
+    }
+ 
+ 
+ footer {
+     height: 150px;
+ }
+ 
+ #social-networks {
+     display: flex;
+     justify-content: center;
+ }
+ 
+ #social-networks li{
+     text-align: center;
+    }
+ 
+ #social-networks i {
+     font-size: 200%;
+     margin: 1%;
+     padding: 16px;
+     color: #4a536b;
+ 
+ }
+ 
 
 
 /*Responsive Styles*/

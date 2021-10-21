@@ -32,7 +32,7 @@
     <div id="hero-image"></div>
 
     <section id="about-us">
-        <div>
+        <div id="aboud">
             <h2 id="welcome">About Us</h2>
 
             <hr>
@@ -52,6 +52,7 @@
             <div id="circle-container">
                 <div id="circle-cover-bg"></div>
             </div>
+        </div>
 
     </section>
 
@@ -60,50 +61,54 @@
         <div class="whatwe">
             <h2>What We Offer</h2>
             <hr>
-            <p>To start your Yoga journey with us
-                select your Yoga program according to your level and preference.
+            <div class="wepa">
+                <p>To start your Yoga journey with us
+                    select your Yoga program according to your level and preference.
 
-                Get in shape with the relaxing flow of yoga, gain elasticity and confidence while preparing to
-                start
-                your day from the comfort of your home.</p>
+                    Get in shape with the relaxing flow of yoga, gain elasticity and confidence while preparing to
+                    start
+                    your day from the comfort of your home.</p>
+            </div>
         </div>
     </section>
 
     <section id="sign-up">
+        <div class="sign">
+            <h2>Sign Up!</h2>
+            <hr>
 
-        <h2>Sign Up!</h2>
-        <hr>
+            <div>
+                <p>Get in shape with the relaxing flow of yoga, gain elasticity and confidence while preparing to start
+                    your day from the comfort of your home.</p>
+            </div>
 
-        <div>
-            <p>Get in shape with the relaxing flow of yoga, gain elasticity and confidence while preparing to start
-                your day from the comfort of your home.</p>
-        </div>
+            <div>
+                <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
 
-        <div>
-            <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+                    <fieldset>
+                        <legend>Sign up form</legend>
 
-                <fieldset>
-                    <legend>Sign up form</legend>
+                        <div>
+                            <label for="name-field">Name</label>
+                            <input id="name-field" type="text" name="full_name" required>
+                        </div>
+                        <div>
+                            <label for="email-field">Email</label>
+                            <input id="email-field" type="email" name="email" required>
+                        </div>
+                        <div>
+                            <label for="hatha">Hatha</label>
+                            <input type="radio" id="hatha" name="yoga_preference" value="hatha" required>
+                            <label for="vinyasa">Vinyasa</label>
+                            <input type="radio" id="vinyasa" name="yoga_preference" value="vinyasa" required>
+                            <label for="ashtanga">Ashtanga</label>
+                            <input type="radio" id="ashtanga" name="yoga_preference" value="ashtanga" required>
+                        </div>
 
-                    <div>
-                        <label for="name-field">Name</label>
-                        <input id="name-field" type="text" name="full_name" required>
-                    </div>
-                    <div>
-                        <label for="email-field">Email</label>
-                        <input id="email-field" type="email" name="email" required>
-                    </div>
-                    <div>
-                        <label for="hatha">Hatha</label>
-                        <input type="radio" id="hatha" name="yoga_preference" value="hatha" required>
-                        <label for="vinyasa">Vinyasa</label>
-                        <input type="radio" id="vinyasa" name="yoga_preference" value="vinyasa" required>
-                        <label for="ashtanga">Ashtanga</label>
-                        <input type="radio" id="ashtanga" name="yoga_preference" value="ashtanga" required>
-                    </div>
-
-                    <input class="join-button" type="submit" value="Let's start!">
-            </form>
+                        <input class="join-button" type="submit" value="Let's start!">
+                    </fieldset>
+                </form>
+            </div>
         </div>
     </section>
 
@@ -111,12 +116,12 @@
 
 
     <section id="contact">
-        <h2>Contact</h2>
+       <div class="contact"> 
+           <h2>Contact</h2>
 
         <h3>Classes Times</h3>
 
-        <table>
-
+        <table class="times">
             <tr>
                 <td>Mon - Fri</td>
                 <td>05:00 a.m.</td>
@@ -143,6 +148,8 @@
 
         <h3>Address</h3>
         <p>Early Bird Yoga,<br>Kungsgatan 83<br>Stockholm</p>
+
+        </div>
     </section>
 
 

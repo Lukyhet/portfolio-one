@@ -38,6 +38,8 @@ h2 {
 
 #menuContainer {
     text-align: center;
+    position: relative;
+    background-color: #486f85;
 }
 /*Strip the ul of padding and list styling*/
 
@@ -53,7 +55,6 @@ ul {
 li {
     display: inline-block;
     vertical-align: top;
-    margin-right: 1px;
     font-size: 16px;
     border: 0;
 }
@@ -172,10 +173,10 @@ p {
     padding: 16px;
 }
 
-span {
-    padding: 16px;
+.findus-label{
+    display:block;
+    text-align: center;
 }
-
 
 /* footer */
 
@@ -244,13 +245,13 @@ span {
 
 #hero-image {
 
-    height: 600px;
     width: 100%;
     background: url('../images/mother-daughter3.jpeg');
     background-position: top;
     background-repeat: no-repeat;
     background-size: 100% auto; 
     overflow: hidden;   
+    padding-top: 43%;
 }
 
 /*  About Us section responsive for larger to medium screens size from 1200px wide and down */
@@ -311,7 +312,6 @@ span {
     #hero-image {
         width: 100% auto;
         height: auto;
-        padding-top: 43%;
         background-size: 100% auto;
         }
     }

@@ -30,17 +30,20 @@ h2 {
 
 #menuBackground {
 
-    background:#486f85;
-    width:100%;
-    height:50px;
+    background: #486f85;
+    width: 100%;
+    height: 50px;
     text-align: center;
 }
+
+/* Fix a bug of see-trhough spaces in the dropdown menu and overlaping of first h2, idea from the Developer Kristoffer Von Heland */
 
 #menuContainer {
     text-align: center;
     position: relative;
     background-color: #486f85;
 }
+
 /*Strip the ul of padding and list styling*/
 
 ul {
@@ -88,16 +91,16 @@ li:hover a {
     height: 40px;
     line-height: 40px;
     background: #be5856;
-    
+
 }
 
-  
+
 
 /*Hover state for dropdown links*/
 
 li:hover ul a:hover {
     background: #486f85;
-    color: #aed6dc;  
+    color: #aed6dc;
 }
 
 /*Hide dropdown links until they are needed*/
@@ -166,15 +169,15 @@ input[type=checkbox]:checked~#menu {
     background: url("../images/manyogapeq.png") no-repeat center center;
     height: 100%;
     border-radius: 50%;
-    
+
 }
 
 p {
     padding: 16px;
 }
 
-.findus-label{
-    display:block;
+.findus-label {
+    display: block;
     text-align: center;
 }
 
@@ -182,34 +185,34 @@ p {
 
 /* style social media icons */
 
-.pseudolink { 
-    color: #486f85; 
-    text-decoration:underline; 
-    cursor:pointer; 
-    }
- 
- 
- footer {
-     height: 150px;
- }
- 
- #social-networks {
-     display: flex;
-     justify-content: center;
- }
- 
- #social-networks li{
-     text-align: center;
-    }
- 
- #social-networks i {
-     font-size: 200%;
-     margin: 1%;
-     padding: 16px;
-     color: #4a536b;
- 
- }
- 
+.pseudolink {
+    color: #486f85;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+footer {
+    height: 150px;
+}
+
+#social-networks {
+    display: flex;
+    justify-content: center;
+}
+
+#social-networks li {
+    text-align: center;
+}
+
+#social-networks i {
+    font-size: 200%;
+    margin: 1%;
+    padding: 16px;
+    color: #4a536b;
+
+}
+
 
 
 /*Responsive Styles*/
@@ -224,8 +227,8 @@ p {
 
     /*Create vertical spacing*/
     li {
-        border:none;
-       
+        border: none;
+
     }
 
     /*Make all menu links full width*/
@@ -237,7 +240,7 @@ p {
     /*Display 'show menu' link*/
     .show-menu {
         display: block;
-        
+
     }
 }
 
@@ -249,8 +252,8 @@ p {
     background: url('../images/mother-daughter3.jpeg');
     background-position: top;
     background-repeat: no-repeat;
-    background-size: 100% auto; 
-    overflow: hidden;   
+    background-size: 100% auto;
+    overflow: hidden;
     padding-top: 43%;
 }
 
@@ -261,31 +264,32 @@ p {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
-    } 
- 
+    }
+
     #welcome {
         padding: 30px 0;
         margin: 0;
     }
- 
-    #left-about, #right-about {
+
+    #left-about,
+    #right-about {
         width: 100%;
         float: left;
         padding: 0;
     }
- 
+
     #center-about {
         clear: both;
         width: 100%;
         float: left;
         padding: 0;
     }
- 
+
 
     hr {
         display: none;
     }
- }
+}
 
 
 
@@ -293,10 +297,10 @@ p {
 
 .google-maps {
 
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
 }
 
 .google-maps iframe {
@@ -308,12 +312,10 @@ p {
 }
 
 
-    @media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
     #hero-image {
         width: 100% auto;
         height: auto;
         background-size: 100% auto;
-        }
     }
-
-
+}

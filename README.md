@@ -2,6 +2,8 @@
 
 # Intorduction Early Bird Online Yoga
 
+![Early Bird Yoga Images](assets/readme-files/ResponsiveWs.png)
+
 [View the live project here.] (https://lukyhet.github.io/portfolio-one/)
 
 This is a website designed for an online Yoga academy that offers early morning classes.
@@ -25,42 +27,54 @@ These features are:
 
 - __Navigation Bar__
 
-  - Featured on the right corner of the page, the full responsive navigation bar includes links to the  Home, About Us, Sign Up and Contact sections.
+  - Featured on the top of the page, the full responsive navigation bar includes links to the  Home, About Us, Sign Up and Contact sections.
+
+  -The navigation bar works as a dropdown menu in smaller screens making a transition for responsive design.
 
   - This section will allow the user to easily go to from section to section in all devices without having to scroll up and down to the desired section. 
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
-
 - __Home-hero image_
 
-  - The home includes a photograph with text overlay to create a welcoming and inviting environment for the user interested in early online yoga classes. 
+
+  - The home includes a photograph to create a welcoming and inviting environment for the user interested in early online yoga classes. 
   - This section introduces the user to the website with an eye catching photograph.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+  __The Color Palette _
+
+  - The color scheme was inspired by the colors of the hero image and to catch them wih precition a sepcific website was used [IMAGECOLORPICKER.com](https://imagecolorpicker.com/), selecting only three colors that were used along the website, two hues of blue and one of pink to create a clean harmonious environment for the user.
+  
+  - This section introduces the user to the website with an eye catching photograph.
+  
 
 - __About Us section__
 
-  - The ethos of the site is contained in a section called About Us that will allow the user to get some information about the phillosophy of the yoga online studio and the services offered by it. 
-  - This user will see the quality and knowledge behind Early Bird Yoga and a clear list of the services offered inviting the user to sign up for a sepcific type of classes accordign to their needs and yoga level.
+  - The ethos of the site is contained in a section called About Us that will allow the user to get some information about the phillosophy of the yoga online studio and the services offered by it.
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+  - The user will see the quality and knowledge behind Early Bird Yoga and an inspiring yoga related image enclosed in a circle givin the impretion of a bubble or some ethereal peaceful image.
+
+  ![About us image](assets/readme-files/Yogacircle.png)
+
+  - __What we Offer__
+
+  - This section will allow the user get to know the services offred by Early Bird Yoga, with a concise overview of the different types of yoga and how they would suit the different levels and needs of the user.
 
 - __Sign Up section__
 
-  - This page will allow the user to get signed up to Early Bird Online Yoga to start their yoga path from the comfort of their homes and at their early time of preference. The user will be able specify his or her yoga level and the type of classes needed. The user will be asked to submit their full name and email address. 
+  - This page will allow the user to get signed up to Early Bird Online Yoga to start their yoga path from the comfort of their homes and at their early time of preference. The user will be able specify his or her yoga level, the user will be asked to submit their full name and email address too. All of that through a form designed in the same palette color as the rest of the elements in the website and with a submit botton that counts with confirmation of information sended. For that post method recipient was borrowed as recipient of the information sended by the user.
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
 
-- __The Contact Section__ 
+- __The Contact and Footer Sections__ 
 
-  - The footer named contact section includes links to the relevant social media sites for Early Bird Online Yoga. The links will open to a new tab. 
+  - The footer and contact section include:
+  
+- [x] a complete item links to the relevant social media sites for Early Bird Online Yoga. made and styled using Font Awesome icons  [fontawesome.com](https://fontawesome.com/).
+- [x] Times and days of classes.
+- [x] Contact data like email, phone number and adress.
+- [x] An embedded google maps widget to facilitate the location of Early Bird Yoga in a hypotetical adress in Stockholm city.
 
-  - The background of the footer is a photograph with a simple color combination that allows contrast with text and icons for easier readability.
+All this features are responsive in different screen sizes.
 
   - The footer aims to encourage users to keep contact with Early Bird Online Yoga and conect via social networks.
-
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
-
 
 ### Features Left to Implement
 
@@ -68,7 +82,7 @@ These features are:
 
 ## Testing 
 
-I have thested the responsivness of the website using three methods, the first one being developer tools of google chrome, the second is websites like Am I responsive [Am I responsive] (http://ami.responsivedesign.is/) the third one using my own mobile phone.
+I have thested the responsivness of the website using three methods, the first one being developer tools of google chrome, the second is websites like Am I responsive [Am I responsive](http://ami.responsivedesign.is/) the third one using my own mobile phone.
 
 The website has a clean appearance in the different screen sizes mentioned, looking more spacious in ipad and mobile phone sizes due to the media queries height used to fix gaps between the sections.
 
@@ -78,20 +92,14 @@ The second bug that I found very challenging was to get rid of the massive space
 
 In the process of fixing these bugs I did a lot of research finding many options and learning in the process how delicate is the CSS cascade system.
 
-
-
-
-
-
-
-### Validator Testing 
+### Validator Testing and Unfixed Bugs.
 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
-### Unfixed Bugs
+### 
 
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
 

@@ -1,6 +1,12 @@
+<h1 align="center">Early Bird Yoga Website</h1>
+
 # Intorduction Early Bird Online Yoga
 
-Early Bird Online Yoga is a site that offers the solution for those who love to start the day with a self care type of physical activity like yoga but don´t have much time to do it. Their only alternative is to practice yoga very early in the morning, before the kids wake up, before getting ready for the office or any other demanding routine. Early Bird Yoga offers erly morning one on one online classes for adults, couples and "wake up" yoga classes for kids that don´t want to go to a yoga studio so early in the morning and don´t want to waste time scrolling on Youtube looking for the a good "enough" yoga video. 
+[View the live project here.] (https://lukyhet.github.io/portfolio-one/)
+
+This is a website designed for an online Yoga academy that offers early morning classes.
+
+Early Bird Yoga is a site that offers the solution for those who love to start the day with a self care type of physical activity like yoga but don´t have much time to do it. Their only alternative is to practice yoga very early in the morning, before the kids wake up, before getting ready for the office or any other demanding routine. Early Bird Yoga offers erly morning one on one online classes for adults, couples and "wake up" yoga classes for kids that don´t want to go to a yoga studio so early in the morning and don´t want to waste time scrolling on Youtube looking for the a good "enough" yoga video. 
 
 <details>
 
